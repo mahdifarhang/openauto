@@ -241,8 +241,8 @@ void SettingsWindow::onSave()
 
     configuration_->setBluetoothRemoteAdapterAddress(ui_->lineEditExternalBluetoothAdapterAddress->text().toStdString());
 
-    configuration_->setMusicAudioChannelEnabled(ui_->checkBoxMusicAudioChannel->isChecked());
-    configuration_->setSpeechAudioChannelEnabled(ui_->checkBoxSpeechAudioChannel->isChecked());
+    configuration_->setMusicAudioChannelEnabled(true);
+    configuration_->setSpeechAudioChannelEnabled(true);
     configuration_->setAudioOutputBackendType(ui_->radioButtonRtAudio->isChecked() ? configuration::AudioOutputBackendType::RTAUDIO : configuration::AudioOutputBackendType::QT);
 
     configuration_->save();

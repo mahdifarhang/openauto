@@ -1575,22 +1575,10 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
                </property>
                <item>
                 <widget class="QCheckBox" name="checkBoxSpeechAudioChannel">
-                 <property name="text">
-                  <string>Speech channel</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
                 </widget>
                </item>
                <item>
                 <widget class="QCheckBox" name="checkBoxMusicAudioChannel">
-                 <property name="text">
-                  <string>Music channel</string>
-                 </property>
-                 <property name="checked">
-                  <bool>true</bool>
-                 </property>
                 </widget>
                </item>
               </layout>
