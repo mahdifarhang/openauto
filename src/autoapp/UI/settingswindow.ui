@@ -2309,6 +2309,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Up [Up]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="2" column="2">
@@ -2316,6 +2322,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Left [Left]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="1" column="1">
@@ -2323,6 +2335,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Previous track [V]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property> 
           </widget>
          </item>
          <item row="0" column="0">
@@ -2330,6 +2348,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Play [X]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="0" column="2">
@@ -2337,6 +2361,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Call end [O]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property> 
           </widget>
          </item>
          <item row="2" column="0">
@@ -2344,6 +2374,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Toggle play [B]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property> 
           </widget>
          </item>
          <item row="1" column="2">
@@ -2351,6 +2387,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Voice command [M]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="3" column="3">
@@ -2358,6 +2400,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Back [Esc]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="1" column="0">
@@ -2365,6 +2413,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Pause [C]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="2" column="1">
@@ -2372,6 +2426,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Home [H]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="0" column="1">
@@ -2379,6 +2439,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Enter [Enter]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="1" column="3">
@@ -2386,6 +2452,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Down [Down]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="1" column="4">
@@ -2393,6 +2465,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Nav [F]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="2" column="3">
@@ -2400,6 +2478,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Scroll wheel [1] / [2]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="0" column="4">
@@ -2419,6 +2503,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Select all</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="3" column="2">
@@ -2426,6 +2516,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Right [Right]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
          <item row="3" column="1">
@@ -2433,6 +2529,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Phone [P]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property> 
           </widget>
          </item>
          <item row="3" column="0">
@@ -2440,6 +2542,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Next track [N]</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>true</bool>
+           </property> 
           </widget>
          </item>
          <item row="3" column="4">
@@ -2459,6 +2567,12 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
            <property name="text">
             <string>Clear selection</string>
            </property>
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="checked">
+            <bool>false</bool>
+           </property> 
           </widget>
          </item>
         </layout>

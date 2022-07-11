@@ -88,49 +88,12 @@ bool InputDevice::handleKeyEvent(QEvent* event, QKeyEvent* key)
 
     switch(key->key())
     {
-    case Qt::Key_Return:
-    case Qt::Key_Enter:
-        buttonCode = aasdk::proto::enums::ButtonCode::ENTER;
-        break;
-
-    case Qt::Key_Left:
-        buttonCode = aasdk::proto::enums::ButtonCode::LEFT;
-        break;
-
-    case Qt::Key_Right:
-        buttonCode = aasdk::proto::enums::ButtonCode::RIGHT;
-        break;
-
-    case Qt::Key_Up:
-        buttonCode = aasdk::proto::enums::ButtonCode::UP;
-        break;
-
-    case Qt::Key_Down:
-        buttonCode = aasdk::proto::enums::ButtonCode::DOWN;
-        break;
-
-    case Qt::Key_Escape:
-        buttonCode = aasdk::proto::enums::ButtonCode::BACK;
-        break;
-
-    case Qt::Key_H:
-        buttonCode = aasdk::proto::enums::ButtonCode::HOME;
-        break;
-
     case Qt::Key_P:
         buttonCode = aasdk::proto::enums::ButtonCode::PHONE;
         break;
 
     case Qt::Key_O:
         buttonCode = aasdk::proto::enums::ButtonCode::CALL_END;
-        break;
-
-    case Qt::Key_X:
-        buttonCode = aasdk::proto::enums::ButtonCode::PLAY;
-        break;
-
-    case Qt::Key_C:
-        buttonCode = aasdk::proto::enums::ButtonCode::PAUSE;
         break;
 
     case Qt::Key_MediaPrevious:
@@ -148,24 +111,10 @@ bool InputDevice::handleKeyEvent(QEvent* event, QKeyEvent* key)
         buttonCode = aasdk::proto::enums::ButtonCode::NEXT;
         break;
 
-    case Qt::Key_M:
-        buttonCode = aasdk::proto::enums::ButtonCode::MICROPHONE_1;
-        break;
-
-    case Qt::Key_1:
-        wheelDirection = WheelDirection::LEFT;
-        eventType = ButtonEventType::NONE;
-        buttonCode = aasdk::proto::enums::ButtonCode::SCROLL_WHEEL;
-        break;
-
     case Qt::Key_2:
         wheelDirection = WheelDirection::RIGHT;
         eventType = ButtonEventType::NONE;
         buttonCode = aasdk::proto::enums::ButtonCode::SCROLL_WHEEL;
-        break;
-
-    case Qt::Key_F:
-        buttonCode = aasdk::proto::enums::ButtonCode::NAVIGATION;
         break;
 
     default:

@@ -197,23 +197,11 @@ private:
 
     static const std::string cInputEnableTouchscreenKey;
     static const std::string cInputEnablePlayerControlKey;
-    static const std::string cInputPlayButtonKey;
-    static const std::string cInputPauseButtonKey;
     static const std::string cInputTogglePlayButtonKey;
     static const std::string cInputNextTrackButtonKey;
     static const std::string cInputPreviousTrackButtonKey;
-    static const std::string cInputHomeButtonKey;
     static const std::string cInputPhoneButtonKey;
     static const std::string cInputCallEndButtonKey;
-    static const std::string cInputVoiceCommandButtonKey;
-    static const std::string cInputLeftButtonKey;
-    static const std::string cInputRightButtonKey;
-    static const std::string cInputUpButtonKey;
-    static const std::string cInputDownButtonKey;
-    static const std::string cInputScrollWheelButtonKey;
-    static const std::string cInputBackButtonKey;
-    static const std::string cInputEnterButtonKey;
-    static const std::string cInputNavButtonKey;
 };
 
 }
