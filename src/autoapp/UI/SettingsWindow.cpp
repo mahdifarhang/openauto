@@ -203,7 +203,7 @@ void SettingsWindow::onSave()
     configuration_->setAlphaTrans(static_cast<size_t>(ui_->horizontalSliderAlphaTrans->value()));
     configuration_->hideMenuToggle(ui_->checkBoxHideMenuToggle->isChecked());
     configuration_->showLux(ui_->checkBoxShowLux->isChecked());
-    configuration_->showCursor(ui_->checkBoxShowCursor->isChecked());
+    configuration_->showCursor(true);
     configuration_->hideBrightnessControl(ui_->checkBoxHideBrightnessControl->isChecked());
     configuration_->showNetworkinfo(ui_->checkBoxNetworkinfo->isChecked());
     configuration_->mp3AutoPlay(ui_->checkBoxAutoPlay->isChecked());
@@ -221,7 +221,7 @@ void SettingsWindow::onSave()
     QRect videoMargins(0, 0, ui_->spinBoxVideoMarginWidth->value(), ui_->spinBoxVideoMarginHeight->value());
     configuration_->setVideoMargins(std::move(videoMargins));
 
-    configuration_->setTouchscreenEnabled(ui_->checkBoxEnableTouchscreen->isChecked());
+    configuration_->setTouchscreenEnabled(true);
     this->saveButtonCheckBoxes();
 
     configuration_->playerButtonControl(ui_->checkBoxPlayerControl->isChecked());
@@ -483,7 +483,7 @@ void SettingsWindow::load()
     ui_->checkBoxOldGUI->setChecked(configuration_->oldGUI());
     ui_->checkBoxHideMenuToggle->setChecked(configuration_->hideMenuToggle());
     ui_->checkBoxShowLux->setChecked(configuration_->showLux());
-    ui_->checkBoxShowCursor->setChecked(configuration_->showCursor());
+    ui_->checkBoxShowCursor->setChecked(true);
     ui_->checkBoxHideBrightnessControl->setChecked(configuration_->hideBrightnessControl());
     ui_->checkBoxNetworkinfo->setChecked(configuration_->showNetworkinfo());
     ui_->checkBoxAutoPlay->setChecked(configuration_->mp3AutoPlay());
@@ -501,7 +501,7 @@ void SettingsWindow::load()
     ui_->spinBoxVideoMarginWidth->setValue(videoMargins.width());
     ui_->spinBoxVideoMarginHeight->setValue(videoMargins.height());
 
-    ui_->checkBoxEnableTouchscreen->setChecked(configuration_->getTouchscreenEnabled());
+    ui_->checkBoxEnableTouchscreen->setChecked(true);
     this->loadButtonCheckBoxes();
     ui_->checkBoxPlayerControl->setChecked(configuration_->playerButtonControl());
 

@@ -2277,9 +2277,6 @@ QSlider::groove:horizontal { background: #6d6d6d; height: 32px;}</string>
          </property>
          <item>
           <widget class="QCheckBox" name="checkBoxEnableTouchscreen">
-           <property name="text">
-            <string>Enable touchscreen</string>
-           </property>
           </widget>
          </item>
          <item>
